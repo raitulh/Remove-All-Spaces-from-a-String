@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main() {
+    string s;
+    getline(cin, s);
+    string res = "";
+    for(char c : s)
+        if(c != ' ') res += c;
+    cout << res << endl;
+}
